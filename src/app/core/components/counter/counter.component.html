@@ -1,7 +1,89 @@
 <div class="counter-container">
     <div class="counter-header">
-        Number of Engagements Projects
+        <b>Number of Engagements Projects</b>
     </div>
     <div class="data-count">
+        <b class="total">Total:</b> {{total[viewNum]}}
+
+        <ng-template [ngIf]="viewNum == 0">
+            <ul>
+                <b>Latin America: </b> {{latam}} <br>
+                <b>Asia-Pacific: </b> {{apac}} <br>
+                <b>Africa: </b> {{africa}} <br>
+                <b>Europe: </b> {{eur}} <br>
+                <b>North America: </b> {{na}}
+            </ul>
+        </ng-template>
+
+        <ng-template [ngIf]="viewNum == 1">
+            <ul>
+                <b>Poor: </b> {{poor}} <br>
+                <b>Urban Poor: </b> {{urbp}} <br>
+                <b>Women: </b> {{women}} <br>
+                <b>Children: </b> {{children}} <br>
+                <b>Indigenous People: </b> {{indig}} <br>
+                <b>LGBT: </b> {{lgbt}} <br>
+                <b>PWD: </b> {{pwd}} <br>
+                <b>Mentally Ill: </b> {{mental}} <br>
+                <b>Senior Citizen: </b> {{senior}} <br>
+                <b>Broken Family: </b> {{brokfam}} <br>
+                <b>Orphans: </b> {{orph}} <br>
+                <b>Out-of-School Youth: </b> {{ousy}} <br>
+                <b>Prisoners: </b> {{pris}} <br>
+                <b>Unemployed: </b> {{unemp}} <br>
+                <b>Others: </b> {{oth}}
+            </ul>
+        </ng-template>
+        
+        <ng-template [ngIf]="viewNum == 2">
+            <ul>
+                <b>Service Learning: </b> {{serv}} <br>
+                <b>Challenge-based Learning: </b> {{cbl}} <br>
+                <b>Reach-In: </b> {{ri}} <br>
+                <b>Reach Out: </b> {{ro}} <br>
+                <b>Co-curricular: </b> {{cc}} <br>
+                <b>Class Project: </b> {{proj}} <br>
+                <b>Research Project: </b> {{res}} <br>
+                <b>BS/AB Thesis: </b> {{bs}} <br>
+                <b>MS/MA Thesis: </b> {{ms}} <br>
+            </ul>
+        </ng-template>
+        
+        <ng-template [ngIf]="viewNum == 3">
+            <ul>
+                <b>Brothers/Aspirants: </b> {{bro}} <br>
+                <b>Reseachers: </b> {{respeep}} <br>
+                <b>Teachers/Professors: </b> {{teach}} <br>
+                <b>Support Staff: </b> {{supp}} <br>
+                <b>Kindergarten: </b> {{kind}} <br>
+                <b>Grade School: </b> {{gra}} <br>
+                <b>High School: </b> {{hs}} <br>
+                <b>College: </b> {{coll}} <br>
+                <b>Post-Grad: </b> {{grad}} <br>
+                <b>Alumnis: </b> {{alum}} <br>
+                <b>Parents: </b> {{par}} <br>
+                <b>Volunteers: </b> {{vol}} 
+            </ul>
+        </ng-template>
+        
+        <ng-template [ngIf]="viewNum == 4">
+            <ul>
+                <b>Poor: </b> {{poor}} <br>
+                <b>Urban Poor: </b> {{urbp}} <br>
+                <b>Women: </b> {{women}} <br>
+                <b>Children: </b> {{children}} <br>
+                <b>Indigenous People: </b> {{indig}} <br>
+                <b>LGBT: </b> {{lgbt}} <br>
+                <b>PWD: </b> {{pwd}} <br>
+                <b>Mentally Ill: </b> {{mental}} <br>
+                <b>Senior Citizen: </b> {{senior}} <br>
+                <b>Broken Family: </b> {{brokfam}} <br>
+                <b>Orphans: </b> {{orph}} <br>
+                <b>Out-of-School Youth: </b> {{ousy}} <br>
+                <b>Prisoners: </b> {{pris}} <br>
+                <b>Unemployed: </b> {{unemp}} <br>
+                <b>Others: </b> {{oth}}
+            </ul>
+        </ng-template>
     </div>
 </div>

@@ -187,7 +187,7 @@ export class BarGraphComponent {
           } */
         ]},
       options: {
-        aspectRatio: 2,
+        aspectRatio: 1.5,
         plugins: {
           legend: {
             display: false

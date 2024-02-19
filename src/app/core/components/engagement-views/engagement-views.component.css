@@ -1,5 +1,5 @@
 .engagement-views {
-    width: 100vw;
+    width: 100%;
     min-height: 90vh;
     
     overflow-x: hidden;
@@ -20,10 +20,12 @@
 }
 
 .eng-container {
-    width: 100vw;
+    width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+
+    overflow: hidden;
 }
