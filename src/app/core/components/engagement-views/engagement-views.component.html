@@ -1,0 +1,143 @@
+<div class="engagement-views">
+    <view-selector (changeViewEvent)="changeView($event)" (changeGraphEvent)="changeGraph()"></view-selector>
+    
+    <div class="view-container">
+        <ng-template [ngIf]="viewSelectNum == 0">
+            <!-- <i-map></i-map> -->
+            <ng-template [ngIf]="graphSelectNum == 0">
+                <div class="eng-container">
+                    <pie-chart [view]="viewSelectNum"></pie-chart>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 1">
+                <div class="eng-container">
+                    <bar-graph [view]="viewSelectNum"></bar-graph>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 2">
+                <div class="eng-container">
+                    <radar-chart></radar-chart>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 3">
+                <div class="eng-container">
+                    <stacked-bar-graph></stacked-bar-graph>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+        </ng-template>
+
+        <ng-template [ngIf]="viewSelectNum == 1">
+            <ng-template [ngIf]="graphSelectNum == 0">
+                <div class="eng-container">
+                    <pie-chart [view]="viewSelectNum"></pie-chart>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 1">
+                <div class="eng-container">
+                    <bar-graph [view]="viewSelectNum"></bar-graph>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 2">
+                <div class="eng-container">
+                    <radar-chart></radar-chart>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 3">
+                <div class="eng-container">
+                    <stacked-bar-graph></stacked-bar-graph>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+        </ng-template>
+
+        <ng-template [ngIf]="viewSelectNum == 2">
+            <ng-template [ngIf]="graphSelectNum == 0">
+                <div class="eng-container">
+                    <pie-chart [view]="viewSelectNum"></pie-chart>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 1">
+                <div class="eng-container">
+                    <bar-graph [view]="viewSelectNum"></bar-graph>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 2">
+                <div class="eng-container">
+                    <radar-chart></radar-chart>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 3">
+                <div class="eng-container">
+                    <stacked-bar-graph></stacked-bar-graph>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+        </ng-template>
+
+        <ng-template [ngIf]="viewSelectNum == 3">
+            <ng-template [ngIf]="graphSelectNum == 0">
+                <div class="eng-container">
+                    <pie-chart [view]="viewSelectNum"></pie-chart>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 1">
+                <div class="eng-container">
+                    <bar-graph [view]="viewSelectNum"></bar-graph>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 2">
+                <div class="eng-container">
+                    <radar-chart></radar-chart>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 3">
+                <div class="eng-container">
+                    <stacked-bar-graph></stacked-bar-graph>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+        </ng-template>
+
+        <ng-template [ngIf]="viewSelectNum == 4">
+            <ng-template [ngIf]="graphSelectNum == 0">
+                <div class="eng-container">
+                    <pie-chart [view]="viewSelectNum"></pie-chart>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 1">
+                <div class="eng-container">
+                    <bar-graph [view]="viewSelectNum"></bar-graph>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 2">
+                <div class="eng-container">
+                    <radar-chart></radar-chart>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+            <ng-template [ngIf]="graphSelectNum == 3">
+                <div class="eng-container">
+                    <stacked-bar-graph></stacked-bar-graph>
+                    <e-counter></e-counter>
+                </div>
+            </ng-template>
+        </ng-template>
+    </div>
+
+    <!-- <filter-section></filter-section>     -->
+</div>

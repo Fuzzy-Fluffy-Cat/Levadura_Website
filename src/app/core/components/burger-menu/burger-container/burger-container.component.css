@@ -1,0 +1,15 @@
+.burger-container {
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 2rem;
+    position: fixed;
+    top: 15px;
+
+    /* border: 1px solid #117711; */
+
+    display: flex;
+    flex-direction: row;
+
+    z-index: 700;
+}

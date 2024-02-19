@@ -1,0 +1,25 @@
+.burger-text {
+    background-color: #11aa11;
+    color: white;
+    width: 100px;
+    height: 50px;
+    z-index: 1;
+    user-select: none;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Font */
+    font-size: 1.3rem;
+    font-family: "Avantgarde";
+    font-variant: small-caps;
+    font-weight: 900;
+
+    &:hover {
+        color: yellow;
+        opacity: 0.6;
+        transition: all 0.3s ease-out;
+    }
+}

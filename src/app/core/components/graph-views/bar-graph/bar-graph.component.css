@@ -1,0 +1,7 @@
+.bar-container {
+    width: 75vw;
+    height: 70vh;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}

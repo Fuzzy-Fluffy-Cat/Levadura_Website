@@ -1,0 +1,25 @@
+.burger-icon {
+    background-color: #11aa11;
+    width: 50px;
+    height: 50px;
+    border-right: 1px solid #117711;
+    border: none;
+    user-select: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    &:hover {
+        opacity: 0.6;
+        transition: all 0.3s ease-out;
+    }
+}
+
+.burger-img {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 0.7;
+}

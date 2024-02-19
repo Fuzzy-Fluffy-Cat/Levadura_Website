@@ -1,0 +1,29 @@
+.engagement-views {
+    width: 100vw;
+    min-height: 90vh;
+    
+    overflow-x: hidden;
+    /* border-bottom: 1px solid black; */
+}
+
+.view-container {
+    width: 100%;
+    height: fit-content;
+
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.eng-container {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
