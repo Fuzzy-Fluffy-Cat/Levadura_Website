@@ -1,0 +1,33 @@
+git init
+git checkout
+git checkout Fluffy-Fuzzy-Cat/Levadura
+git checkout https://github.com/Fuzzy-Fluffy-Cat/Levadura.git
+echo "# Levadura_Website" >> README.md
+git init
+git add .
+git add *
+git status
+git commit -m "Re-add to a new repository"
+git push origin master
+git push origin main
+git status
+git add README.md
+git commite
+git commit
+git status
+git add README.md
+git status
+echo "# Levadura_Website" >> README.md
+ls
+ld
+git init
+git add README.md
+git status
+git commit -m "add"
+git branch -M main
+git status
+git remote add origin https://github.com/Fuzzy-Fluffy-Cat/Levadura_Website.git
+git push -u origin main
+/doskey history
+doskey /history
+doskey /history >> history.txt
